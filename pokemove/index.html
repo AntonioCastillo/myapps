@@ -1,0 +1,1117 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PokéMove</title>
+<!-- Define Charset -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Android, PokeMove, App, Game, Pokemon" />
+<!-- //Custom Theme files -->
+<!-- Responsive Meta Tag -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+<!-- Responsive Styles and Valid Styles -->
+<style type="text/css">
+		
+		@font-face { font-family: Pokemon; src: url('Pokemon.ttf'); } 
+		
+		body{
+            width: 100%; 
+            margin:0; 
+            padding:0; 
+            -webkit-font-smoothing: antialiased;
+        }
+        p,h1,h2,h3,h4{
+	        margin-top:0;
+					margin-bottom:0;
+					padding-top:0;
+					padding-bottom:0;
+        }
+        html{
+            width: 100%; 
+        }
+        
+        table{
+            font-size: 14px;
+            border: 0;
+        }
+        
+        /* ----------- responsivity ----------- */
+        @media only screen and (max-width: 640px){
+        
+            /*------ top header ------ */
+            .header-bg{width: 440px !important; height: 10px !important;}
+            .main-header{line-height: 28px !important;}
+            .main-subheader{line-height: 28px !important;}
+            
+            .container-middle{width: 420px !important;}
+            .mainContent{width: 400px !important;}
+            
+            .main-image{width: 400px !important; height: auto !important;}
+            .banner{width: 400px !important; height: auto !important;}
+            /*------ sections ---------*/
+            .section-item{width: 400px !important;}
+            .section-img{width: 400px !important; height: auto !important;}
+            /*------- prefooter ------*/
+            .prefooter-header{padding: 0 10px !important; line-height: 24px !important;}
+            .prefooter-subheader{padding: 0 10px !important; line-height: 24px !important;}
+            /*------- footer ------*/
+            .top-bottom-bg{width: 420px !important; height: auto !important;}
+            
+        }
+        
+        @media only screen and (max-width: 479px){
+        
+        	/*------ top header ------ */
+            .header-bg{width: 280px !important; height: 10px !important;}
+            .top-header-left{width: 260px !important; text-align: center !important;}
+            .top-header-right{width: 260px !important;}
+            .main-header{line-height: 28px !important; text-align: center !important;}
+            .main-subheader{line-height: 28px !important; text-align: center !important;}
+            
+            /*------- header ----------*/
+            .logo{width: 260px !important;}
+            .nav{width: 330px !important;}
+            
+            .container{width: 397px !important;}
+            .container-middle{width: 260px !important;}
+            .container-middle-menu{width: 330px !important;}
+            .mainContent{width: 240px !important;}
+            
+            .main-image{width: 240px !important; height: auto !important;}
+            .banner{width: 240px !important; height: auto !important;}
+            /*------ sections ---------*/
+            .section-item{width: 240px !important;}
+            .section-img{width: 240px !important; height: auto !important;}
+            /*------- prefooter ------*/
+            .prefooter-header{padding: 0 10px !important;line-height: 28px !important;}
+            .prefooter-subheader{padding: 0 10px !important; line-height: 28px !important;}
+            /*------- footer ------*/
+            .top-bottom-bg{width: 260px !important; height: auto !important;}
+            
+	    }
+		@media only screen and (max-width: 384px){
+		.container {
+			width: 367px !important;
+		}
+		}
+		@media only screen and (max-width: 375px){
+		.container {
+			width: 358px !important;
+		}
+		}
+		@media only screen and (max-width: 320px){
+		.container {
+			width: 303px !important;
+		}
+		}
+    
+    /* Responsive */
+    @media only screen and (max-width:600px) {
+    /* Tables
+    parameters: width, alignment, padding */
+     
+    table[class=scale] { width: 100%!important; }
+    table[class=scale-300] { width: 100%!important; height: 300px!important; }
+    table[class=scale-90] { width: 90%!important; }
+    /* Td */
+    td[class=scale-left] { width: 100%!important; text-align: left!important;}
+    td[class=scale-height] { height: 70px!important;}
+    td[class=scale-left-bottom] { width: 100%!important; text-align: left!important; padding-bottom: 24px!important; }
+    td[class=scale-left-top] { width: 100%!important; text-align: left!important; padding-top: 24px!important; }
+    td[class=scale-left-all] { width: 100%!important; text-align: left!important; padding-top: 24px!important; padding-bottom: 24px!important; }
+    td[class=scale-center] { width: 100%!important; text-align: center!important;}
+    td[class=scale-center-both] { width: 100%!important; text-align: center!important; padding-left: 20px!important; padding-right: 20px!important; }
+    td[class=scale-center-bottom] { width: 100%!important; text-align: center!important; padding-bottom: 24px!important; }
+    td[class=scale-center-top] { width: 100%!important; text-align: center!important; padding-top: 24px!important; }
+    td[class=scale-center-all] { width: 100%!important; text-align: center!important; padding-top: 24px!important; padding-bottom: 24px!important; padding-left: 20px!important; padding-right: 20px!important; }
+    td[class=scale-right] { width: 100%!important; text-align: right!important;}
+    td[class=scale-right-bottom] { width: 100%!important; text-align: right!important; padding-bottom: 24px!important; }
+    td[class=scale-right-top] { width: 100%!important; text-align: right!important; padding-top: 24px!important; }
+    td[class=scale-right-all] { width: 100%!important; text-align: right!important; padding-top: 24px!important; padding-bottom: 24px!important; }
+    td[class=scale-center-bottom-both] { width: 100%!important; text-align: center!important; padding-bottom: 24px!important; padding-left: 20px!important; padding-right: 20px!important; }
+    td[class=scale-center-top-both] { width: 100%!important; text-align: center!important; padding-top: 24px!important; padding-left: 20px!important; padding-right: 20px!important; }
+    td[class=reset] { height: 0px!important; }
+    td[class=scale-center-topextra] { width: 100%!important; text-align: center!important; padding-top: 84px!important; }
+    img[class="reset"] { display: inline!important; }
+    img[class="scale-inline"] { display: inline!important; }
+    }
+	
+	.btn {
+		color: #333;
+		background-color: #FFCB09;
+		border-color: #FFCB09;
+	}
+	.btn.focus, .btn:focus, .btn:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+	.btn {
+		display: inline-block;
+		padding: 6px 12px;
+		margin-bottom: 0;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-image: none;
+		border: 1px solid transparent;
+		border-radius: 4px;
+	}
+		
+</style>
+<script type="text/javascript">
+	var strings;
+	function initTranslations(){
+		strings = {
+			   "download_free" : {
+				   en : "Download for free",
+				   es : "Descargar gratis",
+				   ca : "Descargar gratis"
+			   },
+			   "whatis" : { 
+				   en : "What is?",
+				   es : "¿Qué és?",
+				   ca : "Què és?"
+			   },
+			   "features" : { 
+				   en : "Features",
+				   es : "Características",
+				   ca : "Característiques"
+			   },
+			   "faq" : { 
+				   en : "FAQ",
+				   es : "FAQ",
+				   ca : "FAQ"
+			   },
+			   "license" : { 
+				   en : "License",
+				   es : "Licencia",
+				   ca : "Llicència"
+			   },
+			   "read_everywhere" : { 
+				   en : "Explore the Pokemon Go world without move from the sofa!",
+				   es : "Explora el mundo Pokemon Go sin moverte del sofá!",
+				   ca : "Explora el món Pokemon Go sense moure't del sofà!"
+			   },
+			   "whatis_title" : { 
+				   en : "What is?",
+				   es : "¿Qué és?",
+				   ca : "Què és?"
+			   },
+			   "whatis_text" : { 
+				   en : "PokéMove is a tool that will help you to explore and catch Pokemon in Pokemon Go. It is based in the GPS localizations simulation to move in Pokemon Go world. In few days testing it I've catched more than 40 Pokemon without move from my home!",
+				   es : "PokéMove es una utilidad que te ayudará a explorar y encontrar nuevos Pokemon en Pokemon Go. Se basa en la simulación de posiciones GPS para moverte por el mundo de Pokemon Go. En pocos días probándolo he podido capturar más de 40 Pokemon sin moverme de casa!",
+				   ca : "PokéMove és una utilitat que t'ajudarà a explorar i trobar nous Pokémon en Pokémon Go. Es basa en la simulació de posicions GPS per moure't pel món de Pokémon Go. En pocs dies provant-ho he pogut capturar més de 40 Pokémon sense moure'm de casa!"
+			   },
+			   "linkapps_title" : { 
+				   en : "Move freely",
+				   es : "Muévete libremente",
+				   ca : "Mou-te lliurement"
+			   },
+			   "linkapps_text" : { 
+				   en : "With pad you can move within Pokémon Go map freely. You can explore the world from home, remember if any Pokémon appear maybe you'll need to restart Pokemon Go to catch them",
+				   es : "Con el pad puedes moverte dentro del mapa de Pokémon Go libremente. Puedes explorar el mundo desde casa, recuerda que si aparecen Pokémon puede que tengas que reiniciar Pokemon Go para atraparlos",
+				   ca : "Amb el pad pots moure't dins del mapa de Pokémon Go lliurement. Pots explorar el món des de casa, recorda que si apareixen Pokémon pot ser que hagis de reiniciar Pokémon Go per atrapar-los"
+			   },
+			   "rules_title" : { 
+				   en : "Get a lot of items",
+				   es : "Consigue un montón de ítems",
+				   ca : "Aconseguiex molts ítems"
+			   },
+			   "rules_text" : { 
+				   en : "You can visit all PokeStops you want and collect a lot of items. Just change your location to one close to a PokeStop and spin it to collect pokeballs and more!",
+				   es : "Puedes visitar todas las PokeParadas que quieras y conseguir muchos ítems. Cambia la localización a una que esté cerca de una PokeParada y hazla girar para conseguir pokeballs y mucho más!",
+				   ca : "Pots visitar totes les PokeParades que vulguis i aconseguir molts ítems. Canvia la localització a una que estigui a prop d'una PokeParada i fes-la girar per aconseguir Pokeballs i molt més!"
+			   },
+			   "template_title" : { 
+				   en : "Combine with other apps",
+				   es : "Combínala con otras apps",
+				   ca : "Combínala amb altres apps"
+			   },
+			   "template_text" : { 
+				   en : "There are other apps that can help you to discover the exact location of Pokemon like:",
+				   es : "Hay otras apps que pueden ayudarte a descubrir la localización de Pokemon cómo:",
+				   ca : "Hi ha altres apps que poden ajudar-te a descobrir la localització de Pokémon com:"
+			   },
+			   "template_text1" : { 
+				   en : "Pokecrew",
+				   es : "Pokecrew",
+				   ca : "Pokecrew"
+			   },
+			   "template_text2" : { 
+				   en : "Pokemap",
+				   es : "Pokemap",
+				   ca : "Pokemap"
+			   },
+			   "template_text3" : { 
+				   en : "Poke Radar",
+				   es : "Poke Radar",
+				   ca : "Poke Radar"
+			   },
+			   "clean_title" : { 
+				   en : "Share with friends",
+				   es : "Comparte con amigos",
+				   ca : "Comparteix amb amics"
+			   },
+			   "clean_text" : { 
+				   en : "There is an option in PokeMove to share localization with friends. Let them know where did you found a rare Pokemon and they will be able to catch it too! You can start with a WhatsApp group for example!",
+				   es : "Hay una opción para compartir tu localización guardada con tus amigos. Compàrtela con ellos cuando encuentres un Pokemon raro y así ellos también podrán capturarlo. Puedes empezar con un grupo de WhatsApp por ejemplo",
+				   ca : "Hi ha una opció per compartir la teva localització guardada amb els teus amics. Comparteix-la amb ells quan trobis un Pokémon rar i així ells també podran capturar-lo. Pots començar amb un grup de WhatsApp per exemple"
+			   },
+			   
+			   /*FAQ*/
+			   
+			   "question1" : {
+					en : "How to access to Developer settings?",
+					es : "¿Cómo acceder a los ajustes de desarrollador?",
+					ca : "Com accedir a les opcions de desenvolupador?"
+			   },
+			   "answer1" : {
+					en : "Go to the settings menu, and scroll down to 'About phone', tap it and scroll down to the bottom again, where you see 'Build number' tap it seven (7) times.",
+					es : "Abre el menú de ajustes, haz scroll hacia abajo hasta la opción 'Acerca del teléfono', entra y busca la opción 'Número de compilación', pulsa 7 veces sobre ella",
+					ca : "Obre el menú d'ajustos, fes scroll cap avall fins a l'opció 'En quant al telèfon', entra i busca l'opció 'Número de compilació', prem 7 vegades sobre ella"
+			   },
+			   
+			   "question2" : {
+					en : "What is the setting I need to change in Developer settings?",
+					es : "¿Que ajuste debo cambiar en el menú Desarrollador?",
+					ca : "Quina opció haig de canviar al menú Desenvolupador?"
+			   },
+			   "answer2" : {
+					en : "You need to set PokéMove as the default app to simulate GPS locations",
+					es : "Necesitas poner PokéMove cómo app por defecto para simular localizaciones GPS",
+					ca : "Necessites posar PokéMove com app per defecte per simular localitzacions GPS"
+			   },
+			   
+			   "question3" : {
+					en : "I appear in the middle of the sea when I start Pokemon Go",
+					es : "Aparezco en el medio del mar al iniciar Pokemon Go",
+					ca : "Surto al mig del mar quan inicio Pokemon Go"
+			   },
+			   "answer3" : {
+					en : "It's normal, use PokéMove to change your location, wait a moment to let Pokemon Go to load the environment and start moving with the pad",
+					es : "Es normal, usa PokéMove para cambiar tu localización a la que quieras, espera a que Pokemon Go cargue el entorno y empieza a moverte con el pad",
+					ca : "És normal, utilitzar PokéMove per canviar la teva localització a la qual vulguis, espera al fet que Pokémon Go carregui l'entorn i comença a moure't amb el pad"
+			   },
+			   
+			   "question4" : {
+					en : "Pokemon is too far when I'm close and location errors",
+					es : "Pokemon demasiado lejos y errores de ubicación",
+					ca : "Pokemon massa lluny i problemes d'ubicació"
+			   },
+			   "answer4" : {
+					en : "Restart Pokemon Go with PokéMove stopped, then start PokéMove again and restore location to catch it! Location error are common remember you are using a little trick to play from home",
+					es : "Reinicia Pokemon Go con PokéMove parado, luego abre PokéMove y recupera tu localización para atraparlo! Los errores de ubicación son comunes recuerda que estás usando un pequeño truco para jugar desde casa!",
+					ca : "Reinicia Pokémon Go amb PokéMove parat, després obre PokéMove i recupera la teva localització per atrapar! Els errors d'ubicació són comuns recorda que estàs fent servir un petit truc per jugar des de casa"
+			   },
+			   
+			   "question5" : {
+					en : "Do you have more questions or ideas?",
+					es : "¿Tienes más preguntas o ideas?",
+					ca : "Tens més preguntes o idees?"
+			   },
+			   "answer5" : {
+					en : "Please contact me by email. My address is antonio.castillo.lopez@gmail.com I will try to answer you ASAP",
+					es : "Contacta conmigo via emal. Mi dirección es antonio.castillo.lopez@gmail.com intentaré responderte lo antes posible",
+					ca : "Contacta amb mi via emal. La meva direcció és antonio.castillo.lopez@gmail.com intentaré contestar-te el més aviat possible",
+			   },
+			   
+			   
+			   "license_title" : { 
+				   en : "License",
+				   es : "Licencia",
+				   ca : "Llicència"
+			   },
+			   "license_text" : { 
+				   en : "PokéMove is completely free, what are you waiting for?",
+				   es : "PokéMove es completamente gratuito, ¿a qué estás esperando?",
+				   ca : "PokéMove es completament gratuït, ¿a què estàs esperant?"
+			   },
+			   "becareful" : { 
+				   en : "The author is not responsible of possible bans or actions from Pokemon Go because of using this app",
+				   es : "El autor no se hace responsable de posibles represalias en forma de baneos o sanciones en el juego Pokemon Go por el uso de esta app",
+				   ca : "L'autor no es fa responsable de possibles represàlies en forma de banejos o sancions al joc Pokemon Go fruït de l'ús d'aquesta app"
+			   },
+			   "copyright" :{
+					en: " © Copyright 2016. All Rights Reserved. Web Template by ",
+					es: " © Copyright 2016. Todos los derechos reservados. Plantilla web de ",
+					ca: " © Copyright 2016. Tots els drets reservats. Plantilla web de "
+			   },
+		   };
+		 
+		var paramLang = location.search.split('hl=')[1];
+		var userLang = navigator.language || navigator.userLanguage; 
+ 		if(paramLang=='en' || paramLang=='es' || paramLang=='ca')
+			doTranslate(paramLang); 
+		else if(userLang=='en' || userLang=='es' || userLang=='ca')
+ 			doTranslate(userLang); 
+		else
+			doTranslate('en'); 
+ 					
+ 		resizeIFrame();
+	}
+		
+	function doTranslate(language){
+		for(var objId in strings){
+			var text = strings[objId][language];
+			if(text)
+				document.getElementById(objId).innerHTML = text;
+		}
+		document.getElementsByTagName('html')[0].setAttribute('lang',language); 
+	}
+	
+	function resizeIFrame() {
+		//Resize iframe
+		var w = document.body.clientWidth;
+		if(w>620)
+			w = 620;
+		document.getElementById("youtube-player").width = w;
+	}
+		
+</script>
+    
+
+</head>
+<body onload="initTranslations();" onresize="resizeIFrame();" style="margin-top: 0; margin-bottom: 0; background: #eee; padding-top: 0; padding-bottom: 0; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+    
+	<!-- Header -->
+	<!---------   top header   ------------>
+                <table border="0" width="620" cellpadding="0" cellspacing="0" align="center" class="scale">
+                     <tr>
+            <td height="35" mc:edit="copy1">&nbsp;</td>
+        </tr>
+                    <tr bgcolor="2f44a2"><td height="5"></td></tr>
+                    
+                    <tr bgcolor="2f44a2">
+	                    <td align="center">
+	                    	<table border="0" width="560" align="center" cellpadding="0" cellspacing="0" class="container-middle">
+	                    		<tr>
+	                    			<td>
+					                    <table border="0" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="top-header-left">
+					                    	<tr>
+					                    		<td align="center">
+					                    			<table border="0" cellpadding="0" cellspacing="0" class="date">
+					                    				<tr>
+								                    		<td>											
+																<a href="#" style="display: block; border-style: none !important; border: 0 !important; margin-top: -4px; background: #FFCB09; border-radius: 100%;" class="l_img"><img editable="true" mc:edit="logo" width="50" height="50" border="0" style="display: block;" src="images/logo.png" alt="logo"  style="border-radius: 1px;"/></a>
+								                    		</td>
+								                    		<td>&nbsp;&nbsp;</td>
+								                    	</tr>
+				
+					                    			</table>
+					                    		</td>
+					                    	</tr>
+					                    </table>
+					                    
+					                    <table border="0" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="top-header-right">
+					                    	<tr><td width="30" height="20"></td></tr>
+					                    </table>
+					                    
+					                    <table border="0" align="right" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="top-header-right">
+					                    	<tr>
+					                    		<td align="center">
+					                    			<table border="0" cellpadding="0" cellspacing="0" align="center" class="tel">
+					                    				<tr>
+								                    		<td>&nbsp;&nbsp;</td>
+								                    		<td mc:edit="tel" style="color: #fefefe; font-size: 11px; font-weight: normal; font-family: Helvetica, Arial, sans-serif;">								                    			
+								                    				<table border="0" align="center" cellpadding="0" cellspacing="0">
+								                						<tr>
+								                							<td>
+								                								<a style="display: block; width: 45px; border-style: none !important; border: 0 !important; margin-top:12px;" href="#"><img editable="true" mc:edit="english" width="30" height="20" border="1" style="display: block;" src="images/english.gif" title="English" alt="spanish" onclick="doTranslate('en');"/></a>
+								                							</td>
+								                							<td>&nbsp;&nbsp;&nbsp;</td>
+								                							<td>
+								                								<a style="display: block; width: 45px; border-style: none !important; border: 0 !important; margin-top:12px;" href="#"><img editable="true" mc:edit="spanish" width="30" height="20" border="1" style="display: block;" src="images/spanish.gif" title="Español" alt="english" onclick="doTranslate('es');"/></a>
+								                							</td>
+								                							<td>&nbsp;&nbsp;&nbsp;</td>
+								                							<td>
+								                								<a style="display: block; width: 45px; border-style: none !important; border: 0 !important; margin-top:12px;" href="#"><img editable="true" mc:edit="catalan" width="30" height="20" border="1" style="display: block;" src="images/catalan.gif" title="Català" alt="english" onclick="doTranslate('ca');" /></a>
+								                							</td>
+								                						</tr>
+								                					</table>
+								                    		</td>
+								                    	</tr>
+					                    			</table>
+					                    		</td>
+					                    	</tr>					                    	
+					                    </table>
+	                    			</td>
+	                    		</tr>
+	                    	</table>
+	                    </td>
+                    </tr>
+                    <!--------- Header  ---------->
+                	<tr bgcolor="ffffff"><td height="30"></td></tr>
+                	
+                	<tr bgcolor="ffffff">
+	                	<td>
+	                		<table border="0" width="560" align="center" cellpadding="0" cellspacing="0" class="container-middle-menu">
+	                			<tr>
+	                				<td>
+				                		<table border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="nav">
+				                			<tr>
+				                				<td align="center" mc:edit="navigation" style="font-size: 14px; font-family: Helvetica, Arial, sans-serif;">
+				                					
+				                						<a style="text-decoration: none; color: #555" href="#whatis_link" id="whatis"></a>
+														<span style="text" class="navSpac">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+														<a style="text-decoration: none; color: #555" href="#features_link" id="features"></a>
+														<span style="text" class="navSpac">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+														<a style="text-decoration: none; color: #555" href="#faq_link" id="faq"></a>				                                    
+														<span style="text" class="navSpac">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+														<a style="text-decoration: none; color: #555" href="#license_link" id="license"></a>				                					
+				                				</td>
+				                			</tr>
+				                		</table>
+	                				</td>
+	                			</tr>
+	                		</table>
+	                	</td>
+                	</tr>
+                	
+                	<tr bgcolor="ffffff"><td height="30"></td></tr>
+                	<!---------- end header --------->
+
+                    
+                </table>
+                
+                <!----------    end top header    ------------>
+
+	
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Header5314" mc:repeatable="Header5314">
+       
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #2f44a2" width="620">
+                	<tr>
+                		<td height="30" style="font-size: 1px" mc:edit="space">&nbsp;</td>
+                	</tr>
+                    <tr>
+                        <td>
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale-300" width="330">
+                            	<tr>
+                            		<td height="80" style="font-size: 1px" mc:edit="space">&nbsp;</td>
+                            	</tr>
+                                <tr>
+                                    <td class="scale-center-both">
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="300">
+                                            <tr>
+                                                <td style="color: #FFCB09; font-family: 'Pokemon'; font-size: 40px;" mc:edit="main heading">PokéMove</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="scale" style="color: #F5F5F5; font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 18px;" mc:edit="copy2">
+                                                    <p id="read_everywhere"></p> <br>
+                                                    <br>
+                                                    
+                                                    <a href="PokeMove.apk" target="_blank"><div class="btn" style="font-weight: bold;"><p id="download_free"></p> <span id="version">v0.9</span></div></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale-300" width="282">
+                                <tr>
+                                    <td class="scale-right" valign="bottom" mc:edit="main image"><img src="images/header.png" style="display: block" class="scale-inline" mc:edit="main image"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    
+    
+	<!-- Intro -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Intro8386" mc:repeatable="Intro8386">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="490">
+                                <tr>
+                                    <td align="center" style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #314C67;" mc:edit="copy3">
+																		<a name="whatis_link"/><p id="whatis_title"></p></td>
+                                </tr>
+                                <tr>
+                                    <td height="15" valign="bottom">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="30">
+                                            <tr>
+                                                <td height="3" style="background-color: #3598DA; border-radius: 3px"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="30" mc:edit="space">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 14px; color: #1c1c1c; line-height: 28px;" mc:edit="copy4">
+                                    <p id="whatis_text"></p>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="50" valign="bottom">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="550">
+                                <tr>
+                                    <td height="1" style="background-color: #E8E8E8"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Video -->
+    <iframe id="youtube-player" class="youtube-player" type="text/html" width="620" height="348"  style="margin: 0 auto; display: block;"
+			src="http://www.youtube.com/embed/mH9d1w9W13g?version=3&autoplay=1" frameborder="0">
+		</iframe>
+    
+	<!-- What we do -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Features3362" mc:repeatable="Features3362">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" width="530">
+                                <tr>
+                                    <td>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="255">
+                                            <tr>
+                                                <td height="40" mc:edit="space">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                                <td class="scale-center-both">
+                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="230">
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #3598DA;" mc:edit="heading">
+                                                            <a name="features_link"/><p id="linkapps_title"></p></td>
+                                                        </tr>
+                                                        <tr>
+															<td height="20" mc:edit="space">&nbsp;</td>
+														</tr>
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 28px;" mc:edit="copy5">
+                                                            <p id="linkapps_text"></p></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td align="right" class="scale-center-both" mc:edit="appscreen1"><img src="images/iphone1.png" mc:edit="appscreen1"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+	
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Features3362" mc:repeatable="Features3362">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" width="530">
+                                <tr>
+                                    <td>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td align="left" class="scale-center-both" mc:edit="appscreen2"><img src="images/iphone2.png" mc:edit="appscreen2"></td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="255">
+                                            <tr>
+                                                <td height="40" mc:edit="space">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                                <td class="scale-center-both">
+                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="230">
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #3598DA;" mc:edit="like & share">
+                                                            <p id="rules_title"></p></td>
+                                                        </tr>
+                                                        <tr>
+															<td height="20" mc:edit="space">&nbsp;</td>
+														</tr>
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 28px;" mc:edit="copy6">
+                                                            <p id="rules_text"></p></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+	
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Features3362" mc:repeatable="Features3362">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" width="530">
+                                <tr>
+                                    <td>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="255">
+                                            <tr>
+                                                <td height="40" mc:edit="space">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                                <td class="scale-center-both">
+                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="230">
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #3598DA;" mc:edit="heading">
+                                                            <p id="template_title"></p></td>
+                                                        </tr>
+                                                        <tr>
+															<td height="20" mc:edit="space">&nbsp;</td>
+														</tr>
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 28px;" mc:edit="copy7">
+															<p id="template_text"></p><li id="template_text1"></li><li id="template_text2"></li><li id="template_text3"></li> </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td align="right" class="scale-center-both" mc:edit="appscreen3"><img src="images/iphone3.png" mc:edit="appscreen3"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+	
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Features3362" mc:repeatable="Features3362">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" width="530">
+                                <tr>
+                                    <td>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td align="left" class="scale-center-both" mc:edit="appscreen4"><img src="images/iphone4.png" mc:edit="appscreen4"></td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="255">
+                                            <tr>
+                                                <td height="40" mc:edit="space">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                                <td class="scale-center-both">
+                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="230">
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #3598DA;" mc:edit="heading">
+                                                            <p id="clean_title"> </p></td>
+                                                        </tr>
+														<tr>
+															<td height="20" mc:edit="space">&nbsp;</td>
+														</tr>
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 28px;" mc:edit="copy8">
+                                                           <p id="clean_text"></p></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+	<!-- 2 column -->
+	
+	<!-- #### 2 col #### -->
+	
+    <a name="faq_link"/>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question1"></p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer1"></p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <!-- #### 2 col #### -->
+    
+    <! --table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question2"></p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer2"></p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question3"></p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer3"> </p>  </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table >
+    
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question4"></p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer4"></p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table -->
+    
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question5">  </p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer5">  </p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+	<!-- FAQ Column -->
+	<table width="620" border="0" cellpadding="0" cellspacing="0" align="center" class="scale" bgcolor="ffffff">
+					
+					
+					<!--------- main section --------->                	
+                	<tr mc:repeatable>
+                		<td>
+                			<table border="0" width="560" align="center" cellpadding="0" cellspacing="0" class="container-middle">
+                			
+	                			<tr><td height="20"></td></tr>
+	                			
+	                			<tr bgcolor="ffffff">
+	                				<td>
+	                					<table width="528" border="0" align="center" cellpadding="0" cellspacing="0" class="mainContent">
+
+				                			<tr><td height="20"></td></tr>
+											<tr>
+				                				<td mc:edit="text1" class="main-subheader" style="color: #314C67; text-align:center; font-size: 20px; font-weight: 400; font-family: Trebuchet MS, Arial, sans-serif; line-height: 22px;">
+				                					
+				                						<a name="license_link" /><p id="license_title"></p></a>
+				                						
+				                				</td>
+	                						</tr>
+	                						
+	                						
+											<tr><td height="15"></td></tr>
+				                			<tr>
+				                				<td mc:edit="text1" class="main-subheader" style="color: #878787; text-align:center;font-size: 14px; font-weight: normal; font-family: Trebuchet MS, Arial, sans-serif; line-height: 26px;">
+				                					
+				                						<p id="license_text"></p>
+				                					
+				                				</td>
+	                						</tr>
+	                						<tr><td height="20"></td></tr>
+	                						</table>
+	                				</td>
+	                			</tr>
+	                			
+	                			<tr bgcolor="ffffff"><td height="10"></td></tr>
+	                			
+	                			
+                			</table>
+                		</td>
+                	</tr><!--------- end main section --------->
+                	
+                	
+              
+                	
+                	<!--------- Features --------->
+
+
+					
+					
+					<!-- team-bottom -->
+					
+                	
+                </table>
+                <!------------ end main Content ----------------->
+
+	<!-- #### footer #### -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" style="background-color: #FFFFFF" width="620px" mc:variant="Footer7059" mc:repeatable="Footer7059">
+        <!---------- prefooter  --------->
+    	
+                	<tr>
+	                	<td>
+	                		<a href="#" style="display: block; border-style: none !important; border: 0 !important;" class=""><img editable="true" mc:edit="logo2" width="50" height="50" border="0" style="display: block; margin: auto;" src="images/logo.png" alt="logo" /></a>
+	                	</td>
+                	</tr><!---------- end prefooter  --------->
+                	
+                <table border="0" width="620" cellpadding="0" cellspacing="0" align="center" class="scale">
+                	<tr bgcolor="ffffff"><td height="40"></td></tr>
+                	<tr bgcolor="ffffff">
+                		<td align="center" mc:edit="copy10" style="color: #939393; font-size: 13px; font-weight: normal; font-family: Helvetica, Arial, sans-serif;" class="prefooter-header">
+	                		<multiline>
+	    						<p id="becareful"></p>
+	                		</multiline>
+                		</td>
+                	</tr>	
+                	
+                	<tr bgcolor="ffffff"><td height="30"></td></tr>
+                	
+                	<tr bgcolor="ffffff">
+                		<td align="center" mc:edit="copy11" style="color: #939393; font-size: 11px; font-weight: normal; font-family: Helvetica, Arial, sans-serif;" class="prefooter-subheader">
+	                		<multiline>
+	                			<span style="color: #314c67">Email :</span> antonio.castillo.lopez@gmail.com
+	                			
+	                		</multiline>
+	                		
+                		</td>
+                	</tr>
+                	
+                	<tr bgcolor="ffffff"><td height="30"></td></tr>
+                <!------------ end main Content ----------------->
+                
+                                
+                 <!---------- footer  --------->
+                	<tr bgcolor="314c67"><td height="14"></td></tr>
+                	<tr bgcolor="314c67">
+                		<td mc:edit="copy12" align="center" style="color: #fff; font-size: 10px; font-weight: normal; font-family: Helvetica, Arial, sans-serif;">
+                				
+                				
+						<a style="color:#fff; text-decoration:none;" href="#" target="_blank">PokéMove</a><span id="copyright"></span><a href="http://w3layouts.com" style="color:white;">W3Layouts</a>
+                			
+                		</td>
+                	</tr>
+					<tr bgcolor="314c67"><td height="14"></td></tr>
+                	
+              
+                <!---------  end footer --------->
+
+				<tr>
+					<td height="35" mc:edit="space">&nbsp;</td>
+				</tr>
+			</table>
+	  </table>
+
+</body>
+</html>
