@@ -1,0 +1,1085 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>NotifiCast</title>
+<!-- Define Charset -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Android, NotifiCast, App, Comunication, Messaging" />
+<!-- //Custom Theme files -->
+<!-- Responsive Meta Tag -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+
+    <!-- Responsive Styles and Valid Styles -->
+
+<style type="text/css">
+
+				body{
+            width: 100%; 
+            margin:0; 
+            padding:0; 
+            -webkit-font-smoothing: antialiased;
+        }
+        p,h1,h2,h3,h4{
+	        margin-top:0;
+					margin-bottom:0;
+					padding-top:0;
+					padding-bottom:0;
+        }
+        html{
+            width: 100%; 
+        }
+        
+        table{
+            font-size: 14px;
+            border: 0;
+        }
+        
+        /* ----------- responsivity ----------- */
+        @media only screen and (max-width: 640px){
+        
+            /*------ top header ------ */
+            .header-bg{width: 440px !important; height: 10px !important;}
+            .main-header{line-height: 28px !important;}
+            .main-subheader{line-height: 28px !important;}
+            
+            .container-middle{width: 420px !important;}
+            .mainContent{width: 400px !important;}
+            
+            .main-image{width: 400px !important; height: auto !important;}
+            .banner{width: 400px !important; height: auto !important;}
+            /*------ sections ---------*/
+            .section-item{width: 400px !important;}
+            .section-img{width: 400px !important; height: auto !important;}
+            /*------- prefooter ------*/
+            .prefooter-header{padding: 0 10px !important; line-height: 24px !important;}
+            .prefooter-subheader{padding: 0 10px !important; line-height: 24px !important;}
+            /*------- footer ------*/
+            .top-bottom-bg{width: 420px !important; height: auto !important;}
+            
+        }
+        
+        @media only screen and (max-width: 479px){
+        
+        	/*------ top header ------ */
+            .header-bg{width: 280px !important; height: 10px !important;}
+            .top-header-left{width: 260px !important; text-align: center !important;}
+            .top-header-right{width: 260px !important;}
+            .main-header{line-height: 28px !important; text-align: center !important;}
+            .main-subheader{line-height: 28px !important; text-align: center !important;}
+            
+            /*------- header ----------*/
+            .logo{width: 260px !important;}
+            .nav{width: 330px !important;}
+            
+            .container{width: 397px !important;}
+            .container-middle{width: 260px !important;}
+            .container-middle-menu{width: 330px !important;}
+            .mainContent{width: 240px !important;}
+            
+            .main-image{width: 240px !important; height: auto !important;}
+            .banner{width: 240px !important; height: auto !important;}
+            /*------ sections ---------*/
+            .section-item{width: 240px !important;}
+            .section-img{width: 240px !important; height: auto !important;}
+            /*------- prefooter ------*/
+            .prefooter-header{padding: 0 10px !important;line-height: 28px !important;}
+            .prefooter-subheader{padding: 0 10px !important; line-height: 28px !important;}
+            /*------- footer ------*/
+            .top-bottom-bg{width: 260px !important; height: auto !important;}
+            
+	    }
+		@media only screen and (max-width: 384px){
+		.container {
+			width: 367px !important;
+		}
+		}
+		@media only screen and (max-width: 375px){
+		.container {
+			width: 358px !important;
+		}
+		}
+		@media only screen and (max-width: 320px){
+		.container {
+			width: 303px !important;
+		}
+		}
+    
+    /* Responsive */
+    @media only screen and (max-width:600px) {
+    /* Tables
+    parameters: width, alignment, padding */
+     
+    table[class=scale] { width: 100%!important; }
+    table[class=scale-300] { width: 100%!important; height: 300px!important; }
+    table[class=scale-90] { width: 90%!important; }
+    /* Td */
+    td[class=scale-left] { width: 100%!important; text-align: left!important;}
+    td[class=scale-height] { height: 70px!important;}
+    td[class=scale-left-bottom] { width: 100%!important; text-align: left!important; padding-bottom: 24px!important; }
+    td[class=scale-left-top] { width: 100%!important; text-align: left!important; padding-top: 24px!important; }
+    td[class=scale-left-all] { width: 100%!important; text-align: left!important; padding-top: 24px!important; padding-bottom: 24px!important; }
+    td[class=scale-center] { width: 100%!important; text-align: center!important;}
+    td[class=scale-center-both] { width: 100%!important; text-align: center!important; padding-left: 20px!important; padding-right: 20px!important; }
+    td[class=scale-center-bottom] { width: 100%!important; text-align: center!important; padding-bottom: 24px!important; }
+    td[class=scale-center-top] { width: 100%!important; text-align: center!important; padding-top: 24px!important; }
+    td[class=scale-center-all] { width: 100%!important; text-align: center!important; padding-top: 24px!important; padding-bottom: 24px!important; padding-left: 20px!important; padding-right: 20px!important; }
+    td[class=scale-right] { width: 100%!important; text-align: right!important;}
+    td[class=scale-right-bottom] { width: 100%!important; text-align: right!important; padding-bottom: 24px!important; }
+    td[class=scale-right-top] { width: 100%!important; text-align: right!important; padding-top: 24px!important; }
+    td[class=scale-right-all] { width: 100%!important; text-align: right!important; padding-top: 24px!important; padding-bottom: 24px!important; }
+    td[class=scale-center-bottom-both] { width: 100%!important; text-align: center!important; padding-bottom: 24px!important; padding-left: 20px!important; padding-right: 20px!important; }
+    td[class=scale-center-top-both] { width: 100%!important; text-align: center!important; padding-top: 24px!important; padding-left: 20px!important; padding-right: 20px!important; }
+    td[class=reset] { height: 0px!important; }
+    td[class=scale-center-topextra] { width: 100%!important; text-align: center!important; padding-top: 84px!important; }
+    img[class="reset"] { display: inline!important; }
+    img[class="scale-inline"] { display: inline!important; }
+    }
+	    
+</style>
+<script type="text/javascript">
+	  var strings;
+		function initTranslations(){
+			strings = {
+                   "whatis" : { 
+                       en : "What is?",
+                       es : "¿Qué és?",
+                       ca : "Què és?"
+                   },
+                   "features" : { 
+                       en : "Features",
+                       es : "Características",
+                       ca : "Característiques"
+                   },
+                   "license" : { 
+                       en : "License",
+                       es : "Licencia",
+                       ca : "Llicència"
+                   },
+                   "read_everywhere" : { 
+                       en : "Read your notifications everywhere",
+                       es : "Lee tus notificaciones en todas partes",
+                       ca : "Llegeix les teves notifications a tot arreu"
+                   },
+                   "whatis_title" : { 
+                       en : "What is?",
+                       es : "¿Qué és?",
+                       ca : "Què és?"
+                   },
+                   "whatis_text" : { 
+                       en : "Few months ago I bought a new car. I felt disappointed when I discovered its internal computer syncs only with SMS via bluetooth. So I developed an app to generate SMS from incoming notifications and read my WhatsApp messages from the car. NotifiCast is the app as the result of this development!",
+                       es : "Hace unos meses compré un coche nuevo. Me sentí decepcionado cuando descubrí su ordenador interno se sincroniza sólo con SMS a través de bluetooth. Así que he desarrollado una aplicación para generar SMS de notificaciones entrantes y leer mis mensajes de WhatsApp desde el coche. NotifiCast es la aplicación como resultado de este desarrollo!",
+                       ca : "Fa uns mesos vaig comprar un cotxe nou. Em vaig sentir decebut quan vaig descobrir el seu ordinador intern es sincronitza només amb SMS a través de bluetooth. Així que he desenvolupat una aplicació per a generar SMS de notificacions entrants i llegir els meus missatges de WhatsApp des del cotxe. NotifiCast és l'aplicació com a resultat d'aquest desenvolupament!"
+                   },
+                   "linkapps_title" : { 
+                       en : "Link your Apps",
+                       es : "Enlaza tus Apps",
+                       ca : "Enllaça les teves Apps"
+                   },
+                   "linkapps_text" : { 
+                       en : "You can convert notifications from all the applications you need. WhatsApp is linked by default. You will be able to see all your messages as SMS",
+                       es : "Puedes convertir las notificaciones de todas las aplicaciones que necesites. WhatsApp está asociado de forma predeterminada. Podrás ver todos los mensajes como SMS",
+                       ca : "Pots convertir les notificacions de totes les aplicacions que necessitis. WhatsApp està associat per defecte. Podràs veure tots els missatges com SMS"
+                   },
+                   "rules_title" : { 
+                       en : "Rules to control SMS processing",
+                       es : "Reglas para controlar que SMS se procesan",
+                       ca : "Regles per a controlar el processament d'SMS"
+                   },
+                   "rules_text" : { 
+                       en : "You can create rules to include or exclude notifications always if are important or never if are useless",
+                       es : "Puedes crear reglas para incluir o excluir notificaciones siempre si son importantes o nunca si son inútiles",
+                       ca : "Pots crear regles per incloure o excloure notificacions sempre si són importants o mai si són inútils"
+                   },
+                   "template_title" : { 
+                       en : "Setup template of the SMS Sender",
+                       es : "Configura la plantilla del remitente del SMS",
+                       ca : "Configura la plantilla del remitent de l'SMS"
+                   },
+                   "template_text" : { 
+                       en : "You can select from 3 options:",
+                       es : "Puedes escoger entre 3 opciones:",
+                       ca : "Pots escollir entre 3 opcions:"
+                   },
+                   "template_text1" : { 
+                       en : "Notification title (by default)",
+                       es : "Título de la Notificación (por defecto)",
+                       ca : "Títol de la Notificació (per defecte)"
+                   },
+                   "template_text2" : { 
+                       en : "Notification title + (App name)",
+                       es : "Título Notificación + (Nombre App)",
+                       ca : "Títol Notificació + (Nom App)"
+                   },
+                   "template_text3" : { 
+                       en : "App name",
+                       es : "Nombre App",
+                       ca : "Nom App"
+                   },
+                   "clean_title" : { 
+                       en : "Clean generated SMS",
+                       es : "Borra SMS generados",
+                       ca : "Esborra SMS generats"
+                   },
+                   "clean_text" : { 
+                       en : "With remove SMS option you can easily clean your generated messages SMS inbox",
+                       es : "Con la opción de eliminación de SMS generados podrás limpiar fácilment la bandeja de entrada de SMS",
+                       ca : "Amb l'opció d'eliminació de SMS generatos podràs netejar fàcilment la safata d'entrada d'SMS"
+                   },
+                   
+                   /*FAQ*/
+                   
+                   "question1" : {
+                   	 	 en : "Can I still receive SMS normally?",
+                       es : "¿Puedo seguir recibiendo SMS normalmente?",
+                       ca : "Pot continuar rebent SMS normalment?"
+                   },
+                   "answer1" : {
+                   	 	 en : "Yes, you will receive SMS normally but you can't write new SMS from NotifiCast. You'll need your habitual app to write SMS",
+                       es : "Sí, recibirás SMS con normalidad, pero no se puede escribir un nuevo SMS amb NotifiCast. Necesitarás tu aplicación habitual para escribir SMS",
+                       ca : "Sí, rebràs SMS amb normalitat, però no es pot escriure un nou SMS amb NotifiCast. Fes servir la teva aplicació habitual per escriure SMS"
+                   },
+                   
+                   "question2" : {
+                   	 	 en : "Is there any extra cost caused by the SMS generation?",
+                       es : "¿Hay algún cargo extra por generar SMS?",
+                       ca : "Hi ha cap càrrec extra per generar SMS?"
+                   },
+                   "answer2" : {
+                   	 	 en : "No, each SMS generated by NotifiCast is completely free. Don't worry about extra costs!",
+                       es : "No, cada SMS generado por NotifiCast es completamente gratuito. No te preocupes por costes extra!!",
+                       ca : "No, cada SMS generat per NotifiCast és completament gratuït. No te preocupis per despese extra!!"
+                   },
+                   
+                   "question3" : {
+                   	 	 en : "How do I know if my car is compatible with NotifiCast?",
+                       es : "¿Cómo saber si mi coche es compatible con NotifiCast?",
+                       ca : "Com saber si el meu cotxe és compatible amb NotifiCast?"
+                   },
+                   "answer3" : {
+                   	 	 en : "If you can read your SMS from the car NotifiCast is compatible. I've tested in a Mazda 3 of 2015 but NotifiCast doesn't depend of any brand only needs SMS sync via bluetooth",
+                       es : "Si puedes leer SMS desde tu coche NotifiCast es compatible. Personalmente lo he probado con un Mazda de 2015 pero NotifiCast no depende de marcas solamente necesita sincronización de SMS via bluetooth",
+                       ca : "Si pots llegir SMS des del cotxe NotifiCast és compatible. Personalment ho he provat amb un Mazda de 2015 però NotifiCast no depen de marques només necessita sincronització d'SMS via bluetooth"
+                   },
+                   
+                   "question4" : {
+                   	 	 en : "How can I stop SMS generation for a period?",
+                       es : "¿Cómo parar la generación de SMS por un periodo?",
+                       ca : "Com parar la generació de SMS durant un periode?"
+                   },
+                   "answer4" : {
+                   	 	 en : "Open NotifiCast and unlink all the apps you've linked previously and any SMS will be generated",
+                       es : "Abre NotifiCast y quita todas las apps enlazadas de ese modo no se generarán SMS",
+                       ca : "Obre NotifiCast i treu totes les apps enllaçades d'aquesta manera no es generarà cap SMS"
+                   },
+                   
+                   "question5" : {
+                   	 	 en : "Do you have more questions or ideas?",
+                       es : "¿Tienes más preguntas o ideas?",
+                       ca : "Tens més preguntes o idees?"
+                   },
+                   "answer5" : {
+                   	 	 en : "Please contact me by email. My address is antonio.castillo.lopez@gmail.com I will try to answer you ASAP",
+                       es : "Contacta conmigo via emal. Mi dirección es antonio.castillo.lopez@gmail.com intentaré responderte lo antes posible",
+                       ca : "Contacta amb mi via emal. La meva direcció és antonio.castillo.lopez@gmail.com intentaré contestar-te el més aviat possible",
+                   },
+                   
+                   
+                   "license_title" : { 
+                       en : "License",
+                       es : "Licencia",
+                       ca : "Llicència"
+                   },
+                   "license_text" : { 
+                       en : "NotifiCast is a Fremium application you can use it for free. After some messages a text will appear in each SMS generated to advise you that the license has expired. You can continue using the app or remove this advise for less than 3 USD. Remember we need some monetary support to continue improving apps. ",
+                       es : "NotifiCast es una aplicación Fremium puede usarse completamente gratis. Después de unos cuantos mensages aparecerá un aviso en cada SMS generado de que la licencia ha expirado. Podrás seguir usando la app o quitar ese aviso por un módico precio. Recuerda que necesitamos apoyo monetario para poder mejorar las apps",
+                       ca : "NotifiCast és una aplicació Fremium pot emprar-se completament gratis. Després d'uns qaunts missatges apareixerà un avís a cada SMS generat de llicència ha expirat. Podràs continuar fent servir la app o treure l'avís per un preu simbòlic. Recorda que necessitem recolzament monetari para poder millorar les apps"
+                   },
+                   "becareful" : { 
+                       en : "Be careful when you use NotifiCast while you are driving, any distraction can be very dangerous for you and your passengers",
+                       es : "Tenga cuidado cuando se utiliza NotifiCast mientras está conduciendo, cualquier distracción puede ser muy peligroso para ti y tus pasajeros",
+                       ca : "Aneu amb compte quan s'utilitza NotifiCast mentre està conduint, qualsevol distracció pot ser molt perillós per a tu i els teus passatgers"
+                   },
+               };
+               
+        var userLang = navigator.language || navigator.userLanguage; 
+ 				if(userLang)
+ 					doTranslate(userLang); 
+ 					
+ 				resizeIFrame();
+		}
+		function doTranslate(language){
+			for(var objId in strings){
+				var text = strings[objId][language];
+				if(text)
+					document.getElementById(objId).innerHTML = text;
+			}
+			document.getElementsByTagName('html')[0].setAttribute('lang',language); 
+		}
+		
+		function resizeIFrame() {
+			//Resize iframe
+			var w = document.body.clientWidth;
+			if(w>620)
+				w = 620;
+			document.getElementById("youtube-player").width = w;
+		}
+		
+</script>
+    
+
+</head>
+<body onload="initTranslations();" onresize="resizeIFrame();" style="margin-top: 0; margin-bottom: 0; background: #eee; padding-top: 0; padding-bottom: 0; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
+    
+	<!-- Header -->
+	<!---------   top header   ------------>
+                <table border="0" width="620" cellpadding="0" cellspacing="0" align="center" class="scale">
+                     <tr>
+            <td height="35" mc:edit="copy1">&nbsp;</td>
+        </tr>
+                    <tr bgcolor="FF6600"><td height="5"></td></tr>
+                    
+                    <tr bgcolor="FF6600">
+	                    <td align="center">
+	                    	<table border="0" width="560" align="center" cellpadding="0" cellspacing="0" class="container-middle">
+	                    		<tr>
+	                    			<td>
+					                    <table border="0" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="top-header-left">
+					                    	<tr>
+					                    		<td align="center">
+					                    			<table border="0" cellpadding="0" cellspacing="0" class="date">
+					                    				<tr>
+								                    		<td>
+									                    		<a href="#" style="display: block; border-style: none !important; border: 0 !important;" class="l_img"><img editable="true" mc:edit="logo" width="50" height="50" border="0" style="display: block;" src="images/logo.png" alt="logo"  style="border-radius: 1px;"/></a>
+								                    		</td>
+								                    		<td>&nbsp;&nbsp;</td>
+								                    	</tr>
+				
+					                    			</table>
+					                    		</td>
+					                    	</tr>
+					                    </table>
+					                    
+					                    <table border="0" align="left" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="top-header-right">
+					                    	<tr><td width="30" height="20"></td></tr>
+					                    </table>
+					                    
+					                    <table border="0" align="right" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="top-header-right">
+					                    	<tr>
+					                    		<td align="center">
+					                    			<table border="0" cellpadding="0" cellspacing="0" align="center" class="tel">
+					                    				<tr>
+								                    		<td>&nbsp;&nbsp;</td>
+								                    		<td mc:edit="tel" style="color: #fefefe; font-size: 11px; font-weight: normal; font-family: Helvetica, Arial, sans-serif;">								                    			
+								                    				<table border="0" align="center" cellpadding="0" cellspacing="0">
+								                						<tr>
+								                							<td>
+								                								<a style="display: block; width: 45px; border-style: none !important; border: 0 !important; margin-top:12px;" href="#"><img editable="true" mc:edit="english" width="30" height="20" border="1" style="display: block;" src="images/english.gif" title="English" alt="spanish" onclick="doTranslate('en');"/></a>
+								                							</td>
+								                							<td>&nbsp;&nbsp;&nbsp;</td>
+								                							<td>
+								                								<a style="display: block; width: 45px; border-style: none !important; border: 0 !important; margin-top:12px;" href="#"><img editable="true" mc:edit="spanish" width="30" height="20" border="1" style="display: block;" src="images/spanish.gif" title="Español" alt="english" onclick="doTranslate('es');"/></a>
+								                							</td>
+								                							<td>&nbsp;&nbsp;&nbsp;</td>
+								                							<td>
+								                								<a style="display: block; width: 45px; border-style: none !important; border: 0 !important; margin-top:12px;" href="#"><img editable="true" mc:edit="catalan" width="30" height="20" border="1" style="display: block;" src="images/catalan.gif" title="Català" alt="english" onclick="doTranslate('ca');" /></a>
+								                							</td>
+								                						</tr>
+								                					</table>
+								                    		</td>
+								                    	</tr>
+					                    			</table>
+					                    		</td>
+					                    	</tr>					                    	
+					                    </table>
+	                    			</td>
+	                    		</tr>
+	                    	</table>
+	                    </td>
+                    </tr>
+                    <!--------- Header  ---------->
+                	<tr bgcolor="ffffff"><td height="30"></td></tr>
+                	
+                	<tr bgcolor="ffffff">
+	                	<td>
+	                		<table border="0" width="560" align="center" cellpadding="0" cellspacing="0" class="container-middle-menu">
+	                			<tr>
+	                				<td>
+				                		<table border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="nav">
+				                			<tr>
+				                				<td align="center" mc:edit="navigation" style="font-size: 14px; font-family: Helvetica, Arial, sans-serif;">
+				                					
+				                						<a style="text-decoration: none; color: #555" href="#whatis_link" id="whatis">What is?</a>
+                                    <span style="text" class="navSpac">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    <a style="text-decoration: none; color: #555" href="#features_link" id="features">Features</a>
+                                    <span style="text" class="navSpac">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    <a style="text-decoration: none; color: #555" href="#faq_link" id="faq">FAQ</a>				                                    
+                                    <span style="text" class="navSpac">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    <a style="text-decoration: none; color: #555" href="#license_link" id="license">License</a>
+				                					
+				                				</td>
+				                			</tr>
+				                		</table>
+	                				</td>
+	                			</tr>
+	                		</table>
+	                	</td>
+                	</tr>
+                	
+                	<tr bgcolor="ffffff"><td height="30"></td></tr>
+                	<!---------- end header --------->
+
+                    
+                </table>
+                
+                <!----------    end top header    ------------>
+
+	
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Header5314" mc:repeatable="Header5314">
+       
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FF6600" width="620">
+                	<tr>
+                		<td height="30" style="font-size: 1px" mc:edit="space">&nbsp;</td>
+                	</tr>
+                    <tr>
+                        <td>
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale-300" width="330">
+                            	<tr>
+                            		<td height="80" style="font-size: 1px" mc:edit="space">&nbsp;</td>
+                            	</tr>
+                                <tr>
+                                    <td class="scale-center-both">
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="300">
+                                            <tr>
+                                                <td style="color: #FFFFFF; font-family: 'source_sans_probold', Helvetica, Arial, sans-serif; font-size: 31px;" mc:edit="main heading">NOTIFICAST
+                                                APP</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="scale" style="color: #F5F5F5; font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 18px;" mc:edit="copy2">
+                                                    <p id="read_everywhere"> Read your notifications everywhere</p> <br>
+                                                    <br>
+                                                    
+                                                    <a href="https://play.google.com/store/apps/details?id=com.castillo.notificationstosms" target="_blank"><img src="images/header_btn2.png" mc:edit="app icon"></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale-300" width="282">
+                                <tr>
+                                    <td class="scale-right" valign="bottom" mc:edit="main image"><img src="images/header.png" style="display: block" class="scale-inline" mc:edit="main image"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    
+    
+	<!-- Intro -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Intro8386" mc:repeatable="Intro8386">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="490">
+                                <tr>
+                                    <td align="center" style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #314C67;" mc:edit="copy3">
+																		<a name="whatis_link"/><p id="whatis_title">What is?</p></td>
+                                </tr>
+                                <tr>
+                                    <td height="15" valign="bottom">
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="30">
+                                            <tr>
+                                                <td height="3" style="background-color: #3598DA; border-radius: 3px"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="30" mc:edit="space">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 14px; color: #1c1c1c; line-height: 28px;" mc:edit="copy4">
+                                    <p id="whatis_text">Few months ago I bought a new car. I felt disappointed when I discovered its internal computer syncs only with SMS via bluetooth. So I developed an app to generate SMS from incoming notifications and read my WhatsApp messages from the car. NotifiCast is the app as the result of this development!</p>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="50" valign="bottom">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="550">
+                                <tr>
+                                    <td height="1" style="background-color: #E8E8E8"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Video -->
+    <iframe id="youtube-player" class="youtube-player" type="text/html" width="620" height="348"  style="margin: 0 auto; display: block;"
+			src="http://www.youtube.com/embed/dUiz7MJaGOU?version=3&autoplay=1" frameborder="0">
+		</iframe>
+    
+	<!-- What we do -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Features3362" mc:repeatable="Features3362">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" width="530">
+                                <tr>
+                                    <td>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="255">
+                                            <tr>
+                                                <td height="40" mc:edit="space">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                                <td class="scale-center-both">
+                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="230">
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #3598DA;" mc:edit="heading">
+                                                            <a name="features_link"/><p id="linkapps_title">Link your Apps</p></td>
+                                                        </tr>
+                                                        <tr>
+															<td height="20" mc:edit="space">&nbsp;</td>
+														</tr>
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 28px;" mc:edit="copy5">
+                                                            <p id="linkapps_text">You can convert notifications from all the applications you need. WhatsApp is linked by default. You will be able to see all your messages as SMS</p></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td align="right" class="scale-center-both" mc:edit="appscreen1"><img src="images/iphone1.png" mc:edit="appscreen1"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+	<!-- What we do -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Features3362" mc:repeatable="Features3362">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" width="530">
+                                <tr>
+                                    <td>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td align="left" class="scale-center-both" mc:edit="appscreen2"><img src="images/iphone2.png" mc:edit="appscreen2"></td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="255">
+                                            <tr>
+                                                <td height="40" mc:edit="space">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                                <td class="scale-center-both">
+                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="230">
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #3598DA;" mc:edit="like & share">
+                                                            <p id="rules_title">Rules to control SMS processing</p></td>
+                                                        </tr>
+                                                        <tr>
+															<td height="20" mc:edit="space">&nbsp;</td>
+														</tr>
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 28px;" mc:edit="copy6">
+                                                            <p id="rules_text">You can create rules to include or exclude notifications always if are important or never if are useless</p></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+	<!-- 2 column -->
+	<!-- What we do -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Features3362" mc:repeatable="Features3362">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" width="530">
+                                <tr>
+                                    <td>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="255">
+                                            <tr>
+                                                <td height="40" mc:edit="space">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                                <td class="scale-center-both">
+                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="230">
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #3598DA;" mc:edit="heading">
+                                                            <p id="template_title">Setup template of the SMS Sender</p></td>
+                                                        </tr>
+                                                        <tr>
+															<td height="20" mc:edit="space">&nbsp;</td>
+														</tr>
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 28px;" mc:edit="copy7">
+															<p id="template_text">You can select from three options:</p><li id="template_text1">Notification title</li><li id="template_text2">Notification title + (App name)</li><li id="template_text3">App name</li> </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td align="right" class="scale-center-both" mc:edit="appscreen3"><img src="images/iphone3.png" mc:edit="appscreen3"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+	<!-- What we do -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="Features3362" mc:repeatable="Features3362">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="50" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" width="530">
+                                <tr>
+                                    <td>
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td align="left" class="scale-center-both" mc:edit="appscreen4"><img src="images/iphone4.png" mc:edit="appscreen4"></td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="255">
+                                            <tr>
+                                                <td height="40" mc:edit="space">&nbsp;</td>
+                                            </tr>
+											<tr>
+                                                <td class="scale-center-both">
+                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" width="230">
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 22px; color: #3598DA;" mc:edit="heading">
+                                                            <p id="clean_title"> Clean generated SMS</p></td>
+                                                        </tr>
+														<tr>
+															<td height="20" mc:edit="space">&nbsp;</td>
+														</tr>
+                                                        <tr>
+                                                            <td style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 28px;" mc:edit="copy8">
+                                                           <p id="clean_text">With remove SMS options you can easily clean generated messages SMS inbox</p></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+	<!-- 2 column -->
+	
+	<!-- #### 2 col #### -->
+	
+    <a name="faq_link"/>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question1">Can I still receive SMS normally?</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer1">Yes, you will receive SMS normally but you can't write new SMS from NotifiCast. You'll need your habitual app to write SMS</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <!-- #### 2 col #### -->
+    
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question2">Is there any extra cost caused by the SMS generation?</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer2">No, each SMS generated by NotifiCast is completely free. Don't worry about extra costs!</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question3">How do I know if my car is compatible with NotifiCast?</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer3">If you can read your SMS from the car NotifiCast is compatible. I've tested in a Mazda 3 of 2015 but NotifiCast doesn't depend of any brand only needs SMS sync via bluetooth </p>  </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question4">How can I stop SMS generation for a period?</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer4">Open NotifiCast and unlink all the apps you've linked previously and any SMS will be generated</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" width="100%" mc:variant="2 col1990" mc:repeatable="2 col1990">
+        <tr>
+            <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" style="background-color: #FFFFFF" width="620">
+                    <tr>
+                        <td height="20" mc:edit="space">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale-90" width="540">
+                                <tr>
+                                    <td style="border-bottom: 1px solid rgba(0,0,0,0.12)">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center-both" style="color: #3598DA; font-family: 'source_sans_prosemibold', Helvetica, Arial, sans-serif; font-size: 15px;" mc:edit="query">
+                                                	<p id="question5"> Do you have more questions or ideas? </p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="scale" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: #9b9b9b;" width="265">
+                                            <tr>
+                                                <td class="scale-center" style="font-family: 'source_sans_proregular', Helvetica, Arial, sans-serif; font-size: 13px; color: #1c1c1c; line-height: 24px;" mc:edit="answer">
+                                                <p id="answer5"> Please contact me by email. My address is antonio.castillo.lopez@gmail.com I will try to answer you ASAP </p></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="20" style="font-size: 10px;" mc:edit="space">&nbsp;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+	<!-- FAQ Column -->
+	<table width="620" border="0" cellpadding="0" cellspacing="0" align="center" class="scale" bgcolor="ffffff">
+					
+					
+					<!--------- main section --------->                	
+                	<tr mc:repeatable>
+                		<td>
+                			<table border="0" width="560" align="center" cellpadding="0" cellspacing="0" class="container-middle">
+                			
+	                			<tr><td height="20"></td></tr>
+	                			
+	                			<tr bgcolor="ffffff">
+	                				<td>
+	                					<table width="528" border="0" align="center" cellpadding="0" cellspacing="0" class="mainContent">
+
+				                			<tr><td height="20"></td></tr>
+											<tr>
+				                				<td mc:edit="text1" class="main-subheader" style="color: #314C67; text-align:center; font-size: 20px; font-weight: 400; font-family: Trebuchet MS, Arial, sans-serif; line-height: 22px;">
+				                					
+				                						<a name="license_link" /><p id="license_title">License</p></a>
+				                						
+				                				</td>
+	                						</tr>
+	                						
+	                						
+											<tr><td height="15"></td></tr>
+				                			<tr>
+				                				<td mc:edit="text1" class="main-subheader" style="color: #878787; text-align:center;font-size: 14px; font-weight: normal; font-family: Trebuchet MS, Arial, sans-serif; line-height: 26px;">
+				                					
+				                						<p id="license_text">NotifiCast is a Fremium application you can use it for free. After some messages a text will appear in each SMS generated to advise you that the license has expired. You can continue using the app or get unlimited generation for less than 3 USD. Remember we need some monetary support to continue improving apps. </p>
+				                					
+				                				</td>
+	                						</tr>
+	                						<tr><td height="20"></td></tr>
+	                						</table>
+	                				</td>
+	                			</tr>
+	                			
+	                			<tr bgcolor="ffffff"><td height="10"></td></tr>
+	                			
+	                			
+                			</table>
+                		</td>
+                	</tr><!--------- end main section --------->
+                	
+                	
+              
+                	
+                	<!--------- Features --------->
+
+
+					
+					
+					<!-- team-bottom -->
+					
+                	
+                </table>
+                <!------------ end main Content ----------------->
+
+	<!-- #### footer #### -->
+    <table align="center" border="0" cellpadding="0" cellspacing="0" class="scale" data-thumb="#" style="background-color: #FFFFFF" width="620px" mc:variant="Footer7059" mc:repeatable="Footer7059">
+        <!---------- prefooter  --------->
+    	
+                	<tr>
+	                	<td>
+	                		<table border="0" width="560" align="center" cellpadding="0" cellspacing="0" class="container-middle">
+                	<tr bgcolor="ffffff"><td height="30"></td></tr>
+	                			<tr>
+	                				<td>
+	                					<table border="0" align="left" cellpadding="0" cellspacing="0" class="logo">
+				                			<tr>
+				                				<td align="center">
+				                					<a href="#" style="display: block; border-style: none !important; border: 0 !important;" class=""><img editable="true" mc:edit="logo2" width="50" height="50" border="0" style="display: block;" src="images/logo.png" alt="logo" /></a>
+				                				</td>
+				                			</tr>
+				                		</table>		
+				                		<table border="0" align="left" cellpadding="0" cellspacing="0">
+				                			<tr>
+				                				<td height="20" width="20"></td>
+				                			</tr>
+				                		</table>
+				                		
+	                				</td>
+	                			</tr>
+	                		</table>
+	                	</td>
+                	</tr><!---------- end prefooter  --------->
+                	
+                <table border="0" width="620" cellpadding="0" cellspacing="0" align="center" class="scale">
+                	<tr bgcolor="ffffff"><td height="40"></td></tr>
+                	<tr bgcolor="ffffff">
+                		<td align="center" mc:edit="copy10" style="color: #939393; font-size: 13px; font-weight: normal; font-family: Helvetica, Arial, sans-serif;" class="prefooter-header">
+	                		<multiline>
+	    						<p id="becareful">Be careful when you use NotifiCast while you are driving, any distraction can be very dangerous for you and your passengers</p>
+	                		</multiline>
+                		</td>
+                	</tr>	
+                	
+                	<tr bgcolor="ffffff"><td height="30"></td></tr>
+                	
+                	<tr bgcolor="ffffff">
+                		<td align="center" mc:edit="copy11" style="color: #939393; font-size: 11px; font-weight: normal; font-family: Helvetica, Arial, sans-serif;" class="prefooter-subheader">
+	                		<multiline>
+	                			<span style="color: #314c67">Email :</span> antonio.castillo.lopez@gmail.com
+	                			
+	                		</multiline>
+	                		
+                		</td>
+                	</tr>
+                	
+                	<tr bgcolor="ffffff"><td height="30"></td></tr>
+                <!------------ end main Content ----------------->
+                
+                                
+                 <!---------- footer  --------->
+                	<tr bgcolor="314c67"><td height="14"></td></tr>
+                	<tr bgcolor="314c67">
+                		<td mc:edit="copy12" align="center" style="color: #fff; font-size: 10px; font-weight: normal; font-family: Helvetica, Arial, sans-serif;">
+                			
+                				<a style="color:#fff; text-decoration:none;" href="#" target="_blank">NotifiCast</a> © Copyright 2016. All Rights Reserved. Web Template by <a href="http://w3layouts.com" style="color:white;">W3Layouts</a>
+                			
+                		</td>
+                	</tr>
+					<tr bgcolor="314c67"><td height="14"></td></tr>
+                	
+              
+                <!---------  end footer --------->
+
+				<tr>
+					<td height="35" mc:edit="space">&nbsp;</td>
+				</tr>
+			</table>
+	  </table>
+
+</body>
+</html>
